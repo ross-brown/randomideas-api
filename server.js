@@ -3,6 +3,9 @@ const port = 5000;
 
 const app = express();
 
+// Body parser middleware
+app.use(express.json()); // returns middleware that only parses json
+app.use(express.urlencoded({extended: false})); // returns middleware that only parses urlencoded bodies
 
 app.get("/", (req, res) => {
   res.json({message: "Welcome to the RandomIdeas API"});
