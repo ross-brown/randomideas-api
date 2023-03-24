@@ -4,10 +4,10 @@ import IdeaFrom from "./components/IdeaForm";
 import IdeaList from "./components/IdeaList";
 import "./css/style.css";
 
-const modal = new Modal();
+new Modal();
 const ideaForm = new IdeaFrom();
 ideaForm.render();
-const ideaList = new IdeaList();
+new IdeaList();
 
 // LEARNED THIS LESSON:
 // creating a webpack boilerplate
