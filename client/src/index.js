@@ -8,7 +8,6 @@ const modal = new Modal();
 const ideaForm = new IdeaFrom();
 ideaForm.render();
 const ideaList = new IdeaList();
-ideaList.render();
 
 // LEARNED THIS LESSON:
 // creating a webpack boilerplate
