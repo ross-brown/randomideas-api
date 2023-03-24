@@ -1,11 +1,14 @@
 import "@fortawesome/fontawesome-free/css/all.css";
 import Modal from "./components/Modal";
 import IdeaFrom from "./components/IdeaForm";
+import IdeaList from "./components/IdeaList";
 import "./css/style.css";
 
 const modal = new Modal();
 const ideaForm = new IdeaFrom();
 ideaForm.render();
+const ideaList = new IdeaList();
+ideaList.render();
 
 // LEARNED THIS LESSON:
 // creating a webpack boilerplate
